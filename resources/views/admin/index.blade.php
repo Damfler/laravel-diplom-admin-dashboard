@@ -1,4 +1,5 @@
 @extends('layouts.admin')
+@section('title', 'Главная страница')
 @section('content')
           <div class="container px-6 mx-auto grid">
             <h2
