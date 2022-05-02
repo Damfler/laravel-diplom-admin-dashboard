@@ -166,7 +166,7 @@
                 >
                     <img
                             class="object-cover w-8 h-8 rounded-full"
-                            src="https://images.unsplash.com/photo-1502378735452-bc7d86632805?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=aa3a807e1bbdfd4364d1f449eaa96d82"
+                            src="https://images.unsplash.com/photo-1587910234573-d6fc84743bc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
                             alt=""
                             aria-hidden="true"
                     />
