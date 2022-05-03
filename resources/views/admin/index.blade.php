@@ -3,7 +3,7 @@
 @section('content')
 <div class="container px-6 mx-auto grid">
   <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-    Dashboard
+    Панель инструментов
   </h2>
 
   <!-- Cards -->
@@ -17,7 +17,7 @@
       </div>
       <div>
         <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-          Total clients
+          Всего клиентов
         </p>
         <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
           6389
@@ -33,7 +33,7 @@
       </div>
       <div>
         <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-          Account balance
+          Баланс счета
         </p>
         <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
           $ 46,760.89
@@ -49,7 +49,7 @@
       </div>
       <div>
         <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-          New sales
+          Новые продажи
         </p>
         <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
           376
@@ -65,7 +65,7 @@
       </div>
       <div>
         <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-          Pending contacts
+          Ожидающие контакты
         </p>
         <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
           35
@@ -80,10 +80,10 @@
       <table class="w-full whitespace-no-wrap">
         <thead>
           <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
-            <th class="px-4 py-3">Client</th>
-            <th class="px-4 py-3">Amount</th>
-            <th class="px-4 py-3">Status</th>
-            <th class="px-4 py-3">Date</th>
+            <th class="px-4 py-3">Клиент</th>
+            <th class="px-4 py-3">Сумма</th>
+            <th class="px-4 py-3">Статус</th>
+            <th class="px-4 py-3">Дата</th>
           </tr>
         </thead>
         <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
@@ -352,7 +352,7 @@
     </div>
     <div class="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800">
       <span class="flex items-center col-span-3">
-        Showing 21-30 of 100
+        Отображается 21-30 из 100
       </span>
       <span class="col-span-2"></span>
       <!-- Pagination -->
@@ -414,44 +414,44 @@
 
   <!-- Charts -->
   <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-    Charts
+    Графики
   </h2>
   <div class="grid gap-6 mb-8 md:grid-cols-2">
     <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
       <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">
-        Revenue
+        Доход
       </h4>
       <canvas id="pie"></canvas>
       <div class="flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400">
         <!-- Chart legend -->
         <div class="flex items-center">
           <span class="inline-block w-3 h-3 mr-1 bg-blue-500 rounded-full"></span>
-          <span>Shirts</span>
+          <span>Рубашки</span>
         </div>
         <div class="flex items-center">
           <span class="inline-block w-3 h-3 mr-1 bg-teal-600 rounded-full"></span>
-          <span>Shoes</span>
+          <span>Обувь</span>
         </div>
         <div class="flex items-center">
           <span class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"></span>
-          <span>Bags</span>
+          <span>Сумки</span>
         </div>
       </div>
     </div>
     <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
       <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">
-        Traffic
+        Движение
       </h4>
       <canvas id="line"></canvas>
       <div class="flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400">
         <!-- Chart legend -->
         <div class="flex items-center">
           <span class="inline-block w-3 h-3 mr-1 bg-teal-600 rounded-full"></span>
-          <span>Organic</span>
+          <span>Органический</span>
         </div>
         <div class="flex items-center">
           <span class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"></span>
-          <span>Paid</span>
+          <span>Платный</span>
         </div>
       </div>
     </div>
